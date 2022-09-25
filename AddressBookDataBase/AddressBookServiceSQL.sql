@@ -17,4 +17,5 @@ select * from AddressBook
 insert into AddressBook
 values('Karthik','Goswami','Near Delishop','Junagadh','MadhyaPradesh',4125634,5698741256,'Karthik@gmail.com'),
 ('Abhijeet','Raina','Shivneri colony','Mumbai','Marashtra',410001,2564565515,'Abhijeet@gmail.com')
-
+-------------UC4-----------
+update AddressBook Set Email = 'Abhi@Gmail.com' where FirstName = 'Abhijeet'
