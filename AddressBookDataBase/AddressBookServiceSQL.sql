@@ -29,3 +29,7 @@ insert into AddressBook
 values('Monika','Ghargote','Krishna Temple','Dhule','Maharashtra',4127434,9812645897,'monika@gmail.com'),
 ('Namitha','Gulhane','Westside','Kolkata','WestBangol',741256,2515256284,'Namitha@gmail.com')
 select count(FirstName) from AddressBook where City='Mumbai' And State='Maharashtra'
+----------UC8-------------
+insert into AddressBook
+values('Shrikal','Bandi','Suryanarayan Colony','Mumbai','Maharashtra',7434418,26458975653,'Shrikal@gmail.com')
+select FirstName from AddressBook where  City ='Mumbai' order by FirstName
