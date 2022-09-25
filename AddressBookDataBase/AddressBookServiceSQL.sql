@@ -13,3 +13,8 @@ PhoneNumber bigint,
 Email varchar(30)
 );
 select * from AddressBook
+------------UC3-------------
+insert into AddressBook
+values('Karthik','Goswami','Near Delishop','Junagadh','MadhyaPradesh',4125634,5698741256,'Karthik@gmail.com'),
+('Abhijeet','Raina','Shivneri colony','Mumbai','Marashtra',410001,2564565515,'Abhijeet@gmail.com')
+
