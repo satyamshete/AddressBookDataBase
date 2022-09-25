@@ -21,3 +21,6 @@ values('Karthik','Goswami','Near Delishop','Junagadh','MadhyaPradesh',4125634,56
 update AddressBook Set Email = 'Abhi@Gmail.com' where FirstName = 'Abhijeet'
 ------------UC5-----------
 delete from AddressBook where FirstName='Karthik'
+------------UC6----------
+select * from AddressBook where City='Mumbai' or State='Maharashtra'
+
